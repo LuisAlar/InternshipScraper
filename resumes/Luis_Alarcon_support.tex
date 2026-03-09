@@ -1,0 +1,120 @@
+%-------------------------
+% Resume in Latex - Luis Alarcon (PM-focused version with YourOwn)
+%-------------------------
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+\pdfgentounicode=1
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\begin{document}
+\begin{center}
+    \textbf{\Huge \scshape Luis Alarcon} \\ \vspace{1pt}
+    \small 936-828-9969 $|$ \href{mailto:alarconMandujanoLuis@gmail.com}{\underline{alarconMandujanoLuis@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/luis-alberto-alarcon-mandujano-68316b359}{\underline{linkedin}} $|$
+    \href{https://github.com/LuisAlar}{\underline{github}} 
+
+\end{center}
+{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Texas at Dallas}{Dallas, TX}
+      {Bachelor of Science in Software Engineering}{Expected May 2027}
+
+  \resumeSubHeadingListEnd
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Orbital Mentorship}{Nov 2024 -- Present}
+      {Support/DevOps Lead}{}
+      \resumeItemListStart
+        \resumeItem{\textbf{Diagnosed and resolved complex software application issues} by building an API observability layer, identifying root causes of frontend over-fetching and translating technical metrics into actionable insights.}
+        \resumeItem{\textbf{Triaged system bottlenecks} and collaborated with developers to redesign the client data flow, reducing network requests from 20 to 1-2 and significantly improving platform-wide load times.}
+        \resumeItem{Created \textbf{user-friendly technical documentation} and containerized environments to streamline developer onboarding workflows, providing clear guidance and reducing setup time by 50\%.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Xtensible Solutions}{Apr 2024 -- Aug 2024}
+      {Solutions Engineer Intern}{}
+      \resumeItemListStart
+        \resumeItem{Performed comprehensive \textbf{functionality and system testing}, continuously monitoring API workflows to diagnose expected and edge-case behaviors during non-peak support times.}
+        \resumeItem{Tracked and documented technical defects through exploratory testing, ensuring \textbf{timely resolution of software issues} and providing continuous feedback to engineering management.}
+        \resumeItem{Leveraged automation tools to manage cloud instances and snapshot retrieval, independently prioritizing constraints to maintain service efficiency.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Indigo Magazine}{Dec 2023 -- Present}
+      {Web Development Officer \& Creative Director}{}
+      \resumeItemListStart
+        \resumeItem{\textbf{Provided direct user training and guidance} by developing an end-to-end article submission system, empowering non-technical writers to independently troubleshoot and format content.}
+        \resumeItem{Enhanced the customer experience by proposing and implementing \textbf{product workflow optimizations}, ultimately adding 400+ new active users within the first month.}
+        \resumeItem{Updated and maintained asset repositories and \textbf{technical documentation}, migrating media to a Cloudflare CDN to ensure reliable system uptime.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Society of Hispanic Professional Engineers}{Oct 2023 -- Apr 2024}
+      {Corporate Liaison}{}
+      \resumeItemListStart
+        \resumeItem{Secured \textbf{\$300} in funding through corporate partnerships to support student initiatives.}
+        \resumeItem{Coordinated and hosted professional engagement events, expanding member access to networking and career opportunities.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{YourOwn} $|$ \emph{Team Lead \& System Architect}}{Jan 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Integrated \textbf{automated system testing} suites to proactively identify data logic errors, ensuring continuous reliability and preventing recurring bugs from reaching end-users.}
+        \resumeItem{\textbf{Collaborated cross-functionally} to manage dynamic UI configurations, resolving complex rendering issues and ensuring a high-quality user experience across all supported platforms.}
+        \resumeItem{Documented structural logic and system architecture to serve as \textbf{reference material for internal teams}, improving long-term maintainability and troubleshooting efficiency.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Technical:} React, JavaScript, TypeScript, Java, Express, Prisma, Mongodb, Python, Docker, AWS, Postman \\
+     \textbf{Design \& PM Tools:} Figma, Notion, Jira, Agile Workflow, UX Wireframing \\
+     \textbf{Languages:} English, Spanish
+    }}
+ \end{itemize}
+\end{document}

@@ -1,0 +1,123 @@
+%-------------------------
+% Resume in Latex - Luis Alarcon (PM-focused version with YourOwn)
+%-------------------------
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+\pdfgentounicode=1
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\begin{document}
+\begin{center}
+    \textbf{\Huge \scshape Luis Alarcon} \\ \vspace{1pt}
+    \small 936-828-9969 $|$ \href{mailto:alarconMandujanoLuis@gmail.com}{\underline{alarconMandujanoLuis@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/luis-alberto-alarcon-mandujano-68316b359}{\underline{linkedin}} $|$
+    \href{https://github.com/LuisAlar}{\underline{github}} 
+
+\end{center}
+{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Texas at Dallas}{Dallas, TX}
+      {Bachelor of Science in Software Engineering}{Expected May 2027}
+
+  \resumeSubHeadingListEnd
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Orbital Mentorship}{Nov 2024 -- Present}
+      {DevOps Lead}{}
+      \resumeItemListStart
+        \resumeItem{Engineered a \textbf{Docker-based} deployment and onboarding solution using automation scripts, standardizing environments and reducing configuration time by \textbf{50\%} while virtually eliminating dependency errors.}
+        \resumeItem{Built an in-house API observability and monitoring tool to identify network bottlenecks, enabling continuous performance tracking and reducing per-page network requests from 20 to 1–2.}
+        \resumeItem{Architected a scalable backend data management system, optimizing querying and enabling high-performance CRUD operations for massive datasets.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Xtensible Solutions}{Apr 2024 -- Aug 2024}
+      {Solutions Engineer Intern}{}
+      \resumeItemListStart
+        \resumeItem{Developed \textbf{Python automation scripts} to manage cloud instance creation, snapshot retrieval, and automated GitHub integration, significantly \textbf{reducing} manual deployment overhead.}
+        \resumeItem{Integrated automated API testing workflows for functional and regression testing, ensuring high reliability and stability of web services before deployment.}
+        \resumeItem{Accelerated QA feedback loops and continuous integration processes by systematically identifying and reporting system defects to engineering leadership.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Indigo Magazine}{Dec 2023 -- Present}
+      {Web Development Officer \& Creative Director}{}
+      \resumeItemListStart
+        \resumeItem{Architected an automated asset pipeline, migrating media from a static codebase to a \textbf{Cloudflare CDN} by creating a workflow to fetch and deploy assets from Box.}
+        \resumeItem{Developed internal tools including an end-to-end article submission system, empowering users to upload content independently and significantly \textbf{reducing developer overhead}.}
+        \resumeItem{Collaborated cross-functionally to scale the web platform, successfully handling high traffic spikes and adding \textbf{400+} new active users to the platform within the first month.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Society of Hispanic Professional Engineers}{Oct 2023 -- Apr 2024}
+      {Corporate Liaison}{}
+      \resumeItemListStart
+        \resumeItem{Secured \textbf{\$300} in funding through corporate partnerships to support student initiatives.}
+        \resumeItem{Coordinated and hosted professional engagement events, expanding member access to networking and career opportunities.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{YourOwn} $|$ \emph{Team Lead \& System Architect}}{Jan 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Spearheaded the migration from a monolithic file structure to a scalable, enterprise feature-based architecture, improving system maintainability and deployment modularity.}
+        \resumeItem{Managed the integration of advanced server-side caching and state synchronization pipelines to ensure maximum uptime and performance for heavy data loads.}
+        \resumeItem{Served as System Architect for a full-stack platform, managing component integrations and guiding architectural decisions to ensure 100\% data consistency across dynamic UI portfolios.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Cloud/DevOps Technologies:} Docker, AWS, Linux, Cloudflare CDN, CI/CD Principles \\
+     \textbf{Programming \& Scripting:} Python, Java, JavaScript, TypeScript, Bash (familiar) \\
+     \textbf{Frameworks \& Databases:} React, Node.js, Express, Prisma, MongoDB \\
+     \textbf{PM \& Testing Tools:} Postman, Jira, Agile Workflow \\
+     \textbf{Languages:} English, Spanish
+    }}
+ \end{itemize}
+\end{document}
+

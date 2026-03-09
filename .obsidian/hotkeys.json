@@ -1,0 +1,11 @@
+{
+  "bases:add-item": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ]
+}

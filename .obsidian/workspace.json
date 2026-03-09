@@ -1,0 +1,278 @@
+{
+  "main": {
+    "id": "c8697e9e95b8ce84",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfb6e822d5cce7ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee1ff394783cf065",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/setup_guide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "setup_guide"
+            }
+          },
+          {
+            "id": "350a815e9b06c553",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/github_parser_guide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "github_parser_guide"
+            }
+          },
+          {
+            "id": "6eff5b379bbb0523",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tasks/Git hub parser.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git hub parser"
+            }
+          },
+          {
+            "id": "77a7e444f467601c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/architecture/rate_limits_optimization.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "rate_limits_optimization"
+            }
+          },
+          {
+            "id": "49dcd2992fb7710f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "github_repo_setup_guide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "github_repo_setup_guide"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e82dfae39708c7f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "73759c125a8008a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5032c8d29bf60994",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c0d1a2e54902cb40",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ded2d24827d0dc26",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7a9e3b906150ff1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "168a6e88f7f41c0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13fa0124d9064038",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d899efc148424f2e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "e382fe9f159e2541",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4f4ba140e1b47cf6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "5f7250bfd252c5d4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "49dcd2992fb7710f",
+  "lastOpenFiles": [
+    "docs/architecture/rate_limits_optimization.md",
+    "docs/application_tracker.xlsx",
+    "docs/FD59E000",
+    "docs/~$application_tracker.xlsx",
+    "venv/Lib/site-packages/openai/lib/_parsing/__pycache__/__init__.cpython-312.pyc",
+    "venv/Lib/site-packages/openai/lib/_parsing/__pycache__/_responses.cpython-312.pyc",
+    "venv/Lib/site-packages/openai/lib/_parsing/__pycache__/_completions.cpython-312.pyc",
+    "venv/Lib/site-packages/openai/lib/_parsing/__pycache__",
+    "venv/Lib/site-packages/openai/helpers/__pycache__/microphone.cpython-312.pyc",
+    "venv/Lib/site-packages/openai/helpers/__pycache__/local_audio_player.cpython-312.pyc",
+    "venv/Lib/site-packages/openai/helpers/__pycache__/__init__.cpython-312.pyc",
+    "docs/architecture/model_evaluation.md",
+    "docs/architecture/filtering_strategy.md",
+    "docs/architecture/ADR_filtering_strategy.md",
+    "tasks/Implament batching and cashing.md",
+    "tasks/Updates on injest.md",
+    "tasks/Error on how data look and how we are cleaning it.md",
+    "docs/errors/vscode_env_warning.md",
+    "docs/errors/python_import_module_error.md",
+    "docs/langgraph_setup_guide.md",
+    "docs/github_parser_guide.md",
+    "docs/setup_guide.md",
+    "tasks/Git hub parser.md",
+    "docs/errors/github_parser_diagnosis.md",
+    "venv/Lib/site-packages/langsmith/sandbox/README.md",
+    "venv/Lib/site-packages/langsmith/cli/README.md",
+    "venv/Lib/site-packages/openai/resources/webhooks/api.md",
+    "venv/Lib/site-packages/openai/resources/responses/api.md",
+    "venv/Lib/site-packages/openai/resources/realtime/api.md",
+    "venv/Lib/site-packages/openai/resources/conversations/api.md",
+    "venv/Lib/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md",
+    "venv/Lib/site-packages/httpcore-1.0.9.dist-info/licenses/LICENSE.md",
+    "venv/Lib/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
+    "venv/Lib/site-packages/soupsieve-2.8.3.dist-info/licenses/LICENSE.md",
+    "venv/Lib/site-packages/uuid_utils-0.14.1.dist-info/licenses/LICENSE.md"
+  ]
+}
